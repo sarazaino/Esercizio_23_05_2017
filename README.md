@@ -1,6 +1,9 @@
 # Esercizio del 23 maggio 2017
 
 A partire dalla scena del combattimento tra cowboy, si aggiunga una interfaccia grafica che disponga dei controller di seguito elencati. Tra parentesi è indicata l'/le immagine/i da usare per la personalizzazione dell'UI element.
+Tutti gli UI elements si trovano su un panel che ha come sfondo l'immagine menuBackground.jpg
+
+
 
 1. Un selettore che permette di accendere e spegnere la luce nella scena (lighton e lightoff)
 2. Uno slider che permette di controllare l'intensità luminosa della luce presente
