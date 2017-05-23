@@ -20,6 +20,7 @@ L'accesso via script al componente Image script associato agli UI element si ott
 	- i.fillAmount //per accedere o modificare il valore corrente di filling dell'immagine.
 	
 La progress bar va implementata attraverso l'uso di ImageType Filled con riempimento radiale a 360 gradi (un semicerchio). La progress bar deve essere di colore diverso per i due cowboy. La sprite di default da usare è Knob (generalmente importata di default da unity in caso contrario una immagine circolare colorabile). Il valore di fillAmount dello script Image deve essere impiegato per visualizzare la percentuale di energia (dal momento che esso varia tra 0 e 1 è facilmente impiegabile allo scopo).
+Il cowboy colpito potrà pertanto morire solo nel momento in cui il colpo ricevuto porta la sua energia residua al di sotto dello 0%.
 
 Qualsiasi button nella scena deve essere animato attraverso il transition mode Animation che espande leggermente il pulsante quando il mouse è sopra il pulsante e ne cambia il colore quando viene premuto.
 
